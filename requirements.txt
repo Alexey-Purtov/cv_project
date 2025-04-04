@@ -1,22 +1,25 @@
-# Core dependencies
-streamlit==1.32.0
-numpy==1.26.4
-pandas==2.1.3
-Pillow==10.1.0
-requests==2.31.0
+# Streamlit
+streamlit
 
-# Computer Vision
-opencv-python-headless==4.9.0.80
+# YOLOv8 / Ultralytics
 ultralytics==8.0.196
 
-# Machine Learning
-tensorflow==2.12.1
-protobuf==3.20.3  # Required for TensorFlow compatibility
+# OpenCV
+opencv-python-headless==4.7.0.72
 
-# PyTorch (for YOLO)
-torch==2.0.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
-torchvision==0.15.2+cu118
+# Torch stack (совместимо с CUDA или CPU)
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
 
-# Additional utilities
-scikit-learn==1.3.0  # For any ML utilities
-matplotlib==3.8.0  # For visualization
+# TensorFlow + совместимость
+tensorflow==2.12.0
+protobuf==3.20.3
+
+# Общие библиотеки
+pandas
+numpy
+Pillow
+matplotlib
+scikit-learn
+polars
