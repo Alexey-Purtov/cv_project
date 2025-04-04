@@ -1,25 +1,12 @@
-# Streamlit
-streamlit
-
-# YOLOv8 / Ultralytics
-ultralytics==8.0.196
-
-# OpenCV
-opencv-python-headless==4.7.0.72
-
-# Torch stack (совместимо с CUDA или CPU)
-torch==2.0.1
-torchvision==0.15.2
-torchaudio==2.0.2
-
-# TensorFlow + совместимость
-tensorflow==2.12.0
-protobuf==3.20.3
-
-# Общие библиотеки
-pandas
+ultralytics==8.3.101
+opencv-python-headless==4.11.0.86
 numpy
+pandas
+streamlit
 Pillow
 matplotlib
 scikit-learn
+torch
+torchaudio
+torchvision
 polars
