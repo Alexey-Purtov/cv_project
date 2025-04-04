@@ -8,9 +8,9 @@ sys.path.insert(0, os.path.abspath("forest"))
 sys.path.insert(0, os.path.abspath("ship"))
 
 # Импортируем модули приложений
-from pages.face_app import face_app
-from pages.forest_app import forest_app
-from pages.ship_app import ship_app
+from face.face_app import face_app
+from forest.forest_app import forest_app
+from ship.ship_app import ship_app
 
 def main():
     st.sidebar.title("Навигация")
