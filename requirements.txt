@@ -1,4 +1,4 @@
-ultralytics==8.3.101
+ultralytics==8.0.196
 opencv-python-headless==4.11.0.86
 numpy
 pandas
